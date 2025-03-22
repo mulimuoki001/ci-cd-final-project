@@ -12,7 +12,7 @@ jobs:
     container: python:3.9-slim
     steps:
       - name: checkout
-        uses: actions/ch@v3
+        uses: actions/checkou@v3
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
